@@ -1,5 +1,5 @@
 {
-  "name": "wp5-starter-react-ts",
+  "name": "video",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
@@ -23,6 +23,8 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.10.1",
     "webpack-cli": "3.3.11",

@@ -25,8 +25,8 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        test: /\.scss$/i,
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
         test: /\.(ts|tsx|js|jsx)$/,
@@ -40,7 +40,7 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "starter",
+      name: "video",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {},
